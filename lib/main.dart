@@ -26,3 +26,25 @@ void  main() {
  * COMPARTILHA DADOS DESCENDENTES NA ÁRVORE DE WIDGETS 
  * ÚTIL PARA DADOS GLOBAIS LEVES COMO TEMAS, IDIOMAS E ETC
  */
+
+/* void main() {
+  // chamo a tela de início
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Center(
+      child: Botao(),
+    )
+  ));
+} */
+
+import 'package:my_app/stateless/user.dart';
+
+/* void main() {
+  runApp(User()); 
+} */
+
+import 'package:my_app/stateful/Contador.dart';
+
+void main() {
+  runApp(MaterialApp(home: Contador()));
+}
