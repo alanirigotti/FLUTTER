@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/exercicio/Comercio.dart';
+import 'package:my_app/stateful/RandomNumber.dart';
+import 'package:my_app/stateful/inherited/UserData.dart';
+import 'package:my_app/stateful/inherited/UserInfos.dart';
+import 'package:my_app/stateless/Botao.dart';
 
 /* 
 void  main() {
@@ -38,13 +43,14 @@ void  main() {
 } */
 
 import 'package:my_app/stateless/user.dart';
-
-/* void main() {
-  runApp(User()); 
-} */
-
 import 'package:my_app/stateful/Contador.dart';
+import 'package:my_app/stateful/DarkMode.dart';
 
 void main() {
-  runApp(MaterialApp(home: Contador()));
+  //runApp(User());
+  //runApp(MaterialApp(home: Contador()));
+  //runApp(MaterialApp(home: DarkMode()));
+  // runApp(MaterialApp(home: RandomNumber()));
+  //runApp(MaterialApp(home: ComercioWidget()));
+  runApp(MaterialApp(home: Userinfos()));
 }
